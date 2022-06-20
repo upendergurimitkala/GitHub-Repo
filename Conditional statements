@@ -112,4 +112,37 @@ public class SwitchCaseUrl
 	    
 	}
 }
+===============================================================================================================================================================
+
+
+import java.util.*;
+
+public class SwitchCase
+{
+	public static void main(String[] args) {
+	    
+	    Scanner input = new Scanner(System.in);
+	    
+		System.out.println("Enter a day number");
+		
+	    int day = input.nextInt();
+	    
+	    switch(day)
+	    
+	    {
+	        case 1: System.out.println("MON");
+	               break;
+	               
+	        case 2: System.out.println("TUE");
+	               break; 
+	               
+	        default : System.out.println("Invalid number");
+	        
+	    }
+	    
+	    
+	    
+	    
+	}
+}
 
