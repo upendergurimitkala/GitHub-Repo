@@ -1,0 +1,84 @@
+import java.util.*;
+
+public class Multiplication
+{
+	public static void main(String[] args)  
+	{
+	
+	    Scanner sc = new Scanner (System.in);
+	    
+	    System.out.println ("Enter a number");
+	    
+	    int n = sc.nextInt();
+	  
+	
+		for (int i=1;i<=10;i++)
+		
+		{
+		    int r = n*i;
+		    System.out.println(n + "*" + i + "=" +r);
+		}
+	}	
+	
+}
+
+================================================================================================================================================================================
+import java.util.*;
+
+public class SumOfNaturalNumbers
+{
+	public static void main(String[] args)  
+	{
+	
+	    int sum = 0;
+	  
+	    int n;
+	
+		for (n = 1;n<=10;n++)
+		
+		{
+		    sum = sum+n;
+		    
+		}
+		    
+		   System.out.println("Sum of first" +n +"natural numbers =" +sum);
+		
+	}	
+	
+}
+=========================================================================================================================================================================
+import java.util.*;
+
+public class Factorial
+{
+	public static void main(String[] args)  
+	{
+	    
+	    Scanner sc = new Scanner(System.in);
+	    
+	    System.out.println("Enter a number");
+	    
+	    int n = sc.nextInt();
+	
+	    int factorial = 1;
+	  
+		for (int i= 1;i<=n;i++)
+		
+		{
+		    factorial = factorial*i;
+		    
+		}
+		    
+		   System.out.println("Factorial of the given number is :"+ factorial);
+		
+	}	
+	
+}
+
+
+
+
+
+
+
+
