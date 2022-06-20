@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Main
+public class SwitchCase
 {
 	public static void main(String[] args) {
 	    
